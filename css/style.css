@@ -1,0 +1,87 @@
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+body {
+	background: #F1EEE8;
+	font-family: Josefin Sans, Sans;
+}
+
+.header {
+	background: #E6E2DC;
+	height: 50px;
+	border-bottom: #FFFFFF 2px solid;
+}
+
+.container {
+	margin: 50px auto 50px;
+	width: 800px;
+}
+
+.landing {
+	text-align: center;
+}
+
+.landing img {
+	vertical-align: middle;
+}
+
+.landing .text {
+	margin-left: 50px;
+	vertical-align: middle;
+	display: inline-block;	
+}
+
+.button {
+	margin: 100px auto 0;
+	text-align: center;
+}
+
+.button .tutorial {
+	width: 300px;
+	height: 60px;
+	line-height:60px;
+	background: #F37B83;
+	border: #CCCCCC solid 1px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.button .start {
+	width: 300px;
+	height: 60px;
+	line-height:60px;
+	background: #A6A49F;
+	border: #CCCCCC solid 1px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 0px;
+	font-family: Josefin Sans; 
+}
+
+h2 {
+	font-size: 50px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 30px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	text-align:center;
+	vertical-align:middle;
+}
