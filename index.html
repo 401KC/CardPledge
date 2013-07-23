@@ -1,31 +1,79 @@
+<!--
+
+QUESTIONS
+
+1) What's best practice for gaps between?
+	a) Margin on bottom of top div?
+	b) Margin on top of bottom div?
+
+-->	
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>	
 		<link rel="stylesheet" href="css/normalize.css">
-		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+<!--		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'> -->
 		<link rel="stylesheet" href="css/style.css">
 
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
-		<div class="header"></div>
-		<div class="container">
-			<div class="landing clearfix">
-				<img src="img/icon-card-pledge-280x228.png"/>
+		<div class="header">
+		</div>
+		<div class="landing">
+			<div class="content clearfix">
+				<img src="img/icon-card-pledge-280x228.png" class="graphic">
 				<div class="text">
 					<h1>CardPledge.Org</h1>
-					<h2>Donate your<br/>gift card to charity</h2>
+					<p>Donate your<br/>gift card to charity</p>
 				</div>
-			</div>
-			<div class="button">
-				<div class="tutorial">
-					<h3>Learn More</h3>
-				</div>
-				<div class="start">
-					<h3>Donate Now</h3>
+				<div class="action">
+					<div class="button-tutorial">
+						<h4>Learn More</h4>
+					</div>
+					<div class="button-start">
+						<h4>Donate Now</h4>
+					</div>
 				</div>
 			</div>
 		</div>
+
+<!--	TUTORIAL SECTION -->
+
+		<div class="tutorial">
+			<div class="content clearfix">
+				<div class="text">
+					<h2>Did you know?</h2>
+					<p>When you don't use your gift card for a year you could lose $5 or more a month.</p>
+				</div>
+				<div class="gutter"></div>
+				<img src="img/icon-trash-160x208.png" class="graphic">
+
+			</div>
+		</div>
+		<div class="tutorial">
+			<div class="content clearfix">
+				<img src="img/icon-trash-160x208.png" class="graphic">
+				<div class="gutter"></div>
+				<div class="text">
+					<h2>Did you know?</h2>
+					<p>When you don't use your gift card for a year you could lose $5 or more a month.</p>
+				</div>
+			</div>
+		</div>
+				<div class="tutorial">
+			<div class="content clearfix">
+				<div class="text">
+					<h2>Did you know?</h2>
+					<p>When you don't use your gift card for a year you could lose $5 or more a month.</p>
+				</div>
+				<div class="gutter"></div>
+				<img src="img/icon-trash-160x208.png" class="graphic">
+
+			</div>
+		</div>
+
 	</body>
 </html>

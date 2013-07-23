@@ -8,8 +8,20 @@
 }
 
 body {
+	font-family: Josefin Sans;
 	background: #F1EEE8;
-	font-family: Josefin Sans, Sans;
+	height: 400%;
+}
+
+.landing {
+	background: #F1EEE8;
+	/* background: url(http://farm4.staticflickr.com/3539/5761919056_c5929d5f82_o.jpg);
+	background-repeat: no-repeat; */
+}
+
+.tutorial {
+	background: #F1EEE8;
+	/* background: #E6E2DC;*/
 }
 
 .header {
@@ -18,31 +30,43 @@ body {
 	border-bottom: #FFFFFF 2px solid;
 }
 
-.container {
-	margin: 50px auto 50px;
-	width: 800px;
-}
-
-.landing {
+.content {
+	margin: 50px auto;
+	width: 960px;
 	text-align: center;
 }
 
-.landing img {
-	vertical-align: middle;
-}
+	.graphic {
+		vertical-align: middle;
+		display: inline-block;
+		/* background: yellow;*/
+	}
 
-.landing .text {
-	margin-left: 50px;
-	vertical-align: middle;
-	display: inline-block;	
-}
+	.gutter {
+		width: 50px;
+		height: 0px;
+		vertical-align: middle;
+		display: inline-block;
+	}
 
-.button {
-	margin: 100px auto 0;
-	text-align: center;
-}
+	.text {
+		/* background: teal;*/
+		width: 560px;
+		height: 100%;
+		vertical-align: middle;
+		display: inline-block;
+	}
 
-.button .tutorial {
+	.test {
+		background: red;
+	}
+
+	.action {
+		margin: 100px auto 100px;
+		text-align: center;
+	}
+
+.button-tutorial {
 	width: 300px;
 	height: 60px;
 	line-height:60px;
@@ -52,7 +76,7 @@ body {
 	display: inline-block;
 }
 
-.button .start {
+.button-start {
 	width: 300px;
 	height: 60px;
 	line-height:60px;
@@ -64,18 +88,25 @@ body {
 }
 
 h1 {
-	font-size: 60px;
-	margin: 0px;
-	font-family: Josefin Sans; 
+	font-size: 80px;
+	margin: 0 0 25px;
+	font-weight: 700;
 }
 
 h2 {
 	font-size: 50px;
 	margin: 0px;
-	font-weight: normal;
+	font-weight: 700;
+	text-align: left;
 }
 
 h3 {
+	font-size: 40px;
+	margin: 0 0 25px;
+	font-weight: 700;	
+}
+
+h4 {
 	font-size: 30px;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -84,4 +115,40 @@ h3 {
 	font-weight: normal;
 	text-align:center;
 	vertical-align:middle;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.landing p {
+	font-size: 60px;
+	margin: 0;
+	font-weight: 400;
+	text-align: center;
+}
+
+.tutorial h1 {
+	font-size: 40px;
+	margin: 0;
+	font-weight: 400;
+	text-align: center;
+}
+
+.tutorial p {
+	font-size: 40px;
+	margin: 0;
+	font-weight: 400;
+	text-align: left;
+}
+
+.page-tutorial h3 {
+	text-align: left;
+	margin: 0;
+}
+
+.page-tutorial img {
+	height: 200px;
+}
+
+hr {
+	border-style: 2px solid white;
 }
