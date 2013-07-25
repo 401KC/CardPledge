@@ -12,30 +12,47 @@ html {
 }
 
 body {
+	height: 100%;
 	font-family: Josefin Sans;
 	background: #F1EEE8;
-	height: 400%;
 }
 
-.landing {
-	background: #F1EEE8;
-	/* background: url(http://farm4.staticflickr.com/3539/5761919056_c5929d5f82_o.jpg);
-	background-repeat: no-repeat; */
-}
-
-.tutorial {
-	background: #F1EEE8;
-	/* background: #E6E2DC;*/
-}
 
 .header {
-	background: #E6E2DC;
+	width: 100%;
 	height: 50px;
+	background: #E6E2DC;
 	border-bottom: #FFFFFF 2px solid;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+
+#landing {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+#tutorial {
+	width: 100%;
+	background: #E6E2DC;
+	position: absolute;
+	top: 100%;
+	z-index: 2;
+}
+
+#landing .content {
+	padding: 150px 0 50px;
+}
+
+#tutorial .content {
+	padding: 50px 0 50px;	
 }
 
 .content {
-	margin: 50px auto;
+	margin: auto;
 	width: 960px;
 	text-align: center;
 }
@@ -46,7 +63,7 @@ body {
 		/* background: yellow;*/
 	}
 
-	.gutter {
+	.gap {
 		width: 50px;
 		height: 0px;
 		vertical-align: middle;
@@ -98,7 +115,7 @@ h1 {
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 45px;
 	margin: 0px;
 	font-weight: 700;
 	text-align: left;
@@ -123,23 +140,23 @@ h4 {
 	letter-spacing: 2px;
 }
 
-.landing p {
+#landing p {
 	font-size: 60px;
 	margin: 0;
 	font-weight: 400;
 	text-align: center;
 }
 
-.tutorial h1 {
+#tutorial h1 {
 	font-size: 40px;
 	margin: 0;
 	font-weight: 400;
 	text-align: center;
 }
 
-.tutorial p {
-	font-size: 40px;
-	margin: 0;
+#tutorial p {
+	font-size: 35px;
+	margin: 0 0 20px;
 	font-weight: 400;
 	text-align: left;
 }
@@ -155,4 +172,40 @@ h4 {
 
 hr {
 	border-style: 2px solid white;
+}
+
+.green {
+	background: #E6E2DC;
+}
+
+.yellow {
+	background: #E6E2DC;
+}
+
+.theheader {
+    width: 100%;
+    height: 100px;
+    background: red;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.thelanding {
+    width: 100%;
+    height: 200px;
+    background: yellow;
+    position: fixed;
+    z-index: 1;
+}
+
+.thetutorial {
+    width: 90%;
+    background: none;
+    height: 600px;
+    position: absolute;
+    background: blue;
+    top: 200px;
+    z-index: 1;
+
 }
