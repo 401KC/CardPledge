@@ -164,15 +164,15 @@ h4 {
 	font-size: 35px;
 	margin: 0 0 20px;
 	font-weight: 400;
-	text-align: left;
+	text-align: center;
 }
 
 #flow p {
 	font-size: 35px;
-	margin: 30px 0 20px;
+	margin: 30px auto 20px;
 	font-weight: 400;
 	text-align: left;
-	width: 240px;
+	width: 200px;
 	text-align: center;
 }
 
@@ -213,7 +213,7 @@ h3 {
 
 .charity {
 	width: 240px;
-	height: 240px;
+	height: 300px;
 	float: left;
 	box-sizing: border-box;
 }
@@ -221,27 +221,22 @@ h3 {
 
 
 .charity-icon {
-/*	width: 100px;
-	height: 100px;
+	height: 120px;
+	width: 120px;
 	border-radius: 50%;
-	line-height:60px;
-	display: inline-block;
-	text-decoration: none;
-	background: #EEB192; */
-	height: 60px;
-	width: 60px;
-	border-radius: 50%;
-	background: url("../img/icons-charity-cats.png") no-repeat 0px 0px;
+	background: url("../img/ret-icons-charity-cats.png") no-repeat 0px 0px;
 }
 
+
+
 .animals {background-color:#6c3320;background-position:0 0;}
-.children {background-color:#5c9c9e;background-position:-60px 0;}
-.community {background-color:#6d5a53;background-position:-120px 0;}
-.relief {background-color:#aa2636;background-position:-180px 0;}
-.education {background-color:#b79d85;background-position:-240px 0;}
-.environment {background-color:#7e8151;background-position:-300px 0;}
-.health {background-color:#f5bea6;background-position:-360px 0;}
-.hunger {background-color:#bf8058;background-position:-420px 0;}
-.military {background-color:#494d36;background-position:-480px 0;}
-.science {background-color:#acd3dc;background-position:-540px 0;}
-.youth {background-color:#ff9d46;background-position:-600px 0;}
+.children {background-color:#5c9c9e;background-position:-120px 0;}
+.community {background-color:#6d5a53;background-position:-240px 0;}
+.relief {background-color:#aa2636;background-position:-360px 0;}
+.education {background-color:#b79d85;background-position:-480px 0;}
+.environment {background-color:#7e8151;background-position:-600px 0;}
+.health {background-color:#f5bea6;background-position:-720px 0;}
+.hunger {background-color:#bf8058;background-position:-840px 0;}
+.military {background-color:#494d36;background-position:-960px 0;}
+.science {background-color:#acd3dc;background-position:-1080px 0;}
+.youth {background-color:#ff9d46;background-position:-1200px 0;}
