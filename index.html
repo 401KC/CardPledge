@@ -2,9 +2,9 @@
 
 QUESTIONS
 
-1) What's best practice for gaps between?
-	a) Margin on bottom of top div?
-	b) Margin on top of bottom div?
+1) a:hover for class on actual element (not parent)
+	.primary-button a:hover
+	.secondary-botton
 
 	
 
@@ -26,7 +26,7 @@ QUESTIONS
 
 <!-- LANDING -->
 
-		<div id="landing">
+	<div id="landing">
 			<div class="content clearfix">
 				<img src="img/icon-card-pledge-280x228.png" class="graphic">
 				<div class="gap"></div>
@@ -35,12 +35,13 @@ QUESTIONS
 					<p>Donate your<br/>gift card to charity</p>
 				</div>
 				<div class="action">
-					<div class="button-tutorial">
+					<a href="#tutorial" class="button-primary">
 						<h4>Learn More</h4>
-					</div>
-					<div class="button-start">
+					</a>
+					<div class="gap"></div>
+					<a href="charities.html" class="button-secondary">
 						<h4>Donate Now</h4>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -72,27 +73,19 @@ QUESTIONS
 				<div class="gap"></div>
 				<img src="img/icon-cc-block-300x180.png" class="graphic">
 			</div>
-		</div>
-		
-<!-- TUTORIAL 2
-		
-		<div class="tutorial">
-			
-		</div>
-
-TUTORIAL 3
-		
-		<div class="tutorial">
 			<div class="content clearfix">
-				<div class="text">
-					<h2>Works with gift cards from...</h2>
-					<p>When you don't use your gift card for a year you could lose $5 or more a month.</p>
-				</div>
+				<img src="img/icon-charity-block-300x250.png" class="graphic">
 				<div class="gap"></div>
-				<img src="img/icon-trash-160x208.png" class="graphic">
-
+				<div class="text">
+					<h2>Support your cause</h2>
+					<p>in four simple steps.</p>
+				</div>
+			</div>
+			<div class="action">
+				<a href="charities.html" class="button-primary">
+					<h4>Donate Now</h4>
+				</a>
 			</div>
 		</div>
--->
 	</body>
 </html>
