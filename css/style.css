@@ -111,12 +111,12 @@ body {
 	text-decoration: none;
 }
 
-.button-primary:active {
+.button-primary:hover {
 	text-decoration: none;
 	background: #F99DA4;
 }
 
-.button-secondary:active {
+.button-secondary:hover {
 	text-decoration: none;
 	background: #D3D1CC;
 }
@@ -167,18 +167,20 @@ h4 {
 	text-align: center;
 }
 
-#flow p {
-	font-size: 35px;
-	margin: 30px auto 20px;
+#flow h3 {
+	font-size: 20px;
+	margin: auto;
 	font-weight: 400;
-	text-align: left;
-	width: 200px;
+	width: 140px;
 	text-align: center;
 }
 
-.charity {
-	display: inline-block;
-	text-align: center;
+#flow p {
+	font-size: 12px;
+	margin: 0px auto 5px;
+	font-weight: 400;
+	text-align: left;
+	width: 200px;
 }
 
 ul {
@@ -211,32 +213,91 @@ h3 {
 	width: 60px;
 }
 
-.charity {
-	width: 240px;
-	height: 300px;
-	float: left;
-	box-sizing: border-box;
-}
-
-
-
 .charity-icon {
-	height: 120px;
-	width: 120px;
-	border-radius: 50%;
-	background: url("../img/ret-icons-charity-cats.png") no-repeat 0px 0px;
+	height: 90px;
+	width: 90px;
+	background: url("../img/ret-icons-charity-cats-90px.png") no-repeat 0px 0px;
+}
+
+.charity:hover p {
+	font-weight: 700;
+}
+
+#flow .content {
+	margin: auto;
+	width: 760px;
+	text-align: center;
+}
+
+.charity {
+	height: 160px;
+	width: 160px;
+	box-sizing: border-box;
+	padding: 10px;
+	color: #7D7B79;
+	margin: 15px;
+	border-radius: 5px;
+	float: left;
+	/* background: #E6E2DC;*/
+	text-align: center;	
 }
 
 
 
-.animals {background-color:#6c3320;background-position:0 0;}
-.children {background-color:#5c9c9e;background-position:-120px 0;}
-.community {background-color:#6d5a53;background-position:-240px 0;}
-.relief {background-color:#aa2636;background-position:-360px 0;}
-.education {background-color:#b79d85;background-position:-480px 0;}
-.environment {background-color:#7e8151;background-position:-600px 0;}
-.health {background-color:#f5bea6;background-position:-720px 0;}
-.hunger {background-color:#bf8058;background-position:-840px 0;}
-.military {background-color:#494d36;background-position:-960px 0;}
-.science {background-color:#acd3dc;background-position:-1080px 0;}
-.youth {background-color:#ff9d46;background-position:-1200px 0;}
+.icon {
+	height: 70px;
+	margin: 10px auto 15px;
+}
+
+.health .icon {background: url("../img/icon-health-color.png") no-repeat 0px 0px; background-position:center;}
+.relief .icon {background: url("../img/icon-relief-color.png") no-repeat 0px 0px; background-position:center;}
+.youth .icon {background: url("../img/icon-youth-color.png") no-repeat 0px 0px; background-position:center;}
+.hunger .icon {background: url("../img/icon-hunger-color.png") no-repeat 0px 0px; background-position:center;}
+.animals .icon {background: url("../img/icon-animals-color.png") no-repeat 0px 0px; background-position:center;}
+.environment .icon {background: url("../img/icon-environment-color.png") no-repeat 0px 0px; background-position:center;}
+.education .icon {background: url("../img/icon-education-color.png") no-repeat 0px 0px; background-position:center;}
+.children .icon {background: url("../img/icon-children-color.png") no-repeat 0px 0px; background-position:center;}
+.military .icon {background: url("../img/icon-military-color.png") no-repeat 0px 0px; background-position:center;}
+.science .icon {background: url("../img/icon-science-color.png") no-repeat 0px 0px; background-position:center;}
+.community .icon {background: url("../img/icon-community-color.png") no-repeat 0px 0px; background-position:center;}
+.other .icon {background: url("../img/icon-other-color.png") no-repeat 0px 0px; background-position:center;}
+
+.health:hover .icon {background: url("../img/icon-health-white.png") no-repeat 0px 0px; background-position:center;}
+.relief:hover .icon {background: url("../img/icon-relief-white.png") no-repeat 0px 0px; background-position:center;}
+.youth:hover .icon {background: url("../img/icon-youth-white.png") no-repeat 0px 0px; background-position:center;}
+.hunger:hover .icon {background: url("../img/icon-hunger-white.png") no-repeat 0px 0px; background-position:center;}
+.animals:hover .icon {background: url("../img/icon-animals-white.png") no-repeat 0px 0px; background-position:center;}
+.environment:hover .icon {background: url("../img/icon-environment-white.png") no-repeat 0px 0px; background-position:center;}
+.education:hover .icon {background: url("../img/icon-education-white.png") no-repeat 0px 0px; background-position:center;}
+.children:hover .icon {background: url("../img/icon-children-white.png") no-repeat 0px 0px; background-position:center;}
+.military:hover .icon {background: url("../img/icon-military-white.png") no-repeat 0px 0px; background-position:center;}
+.science:hover .icon {background: url("../img/icon-science-white.png") no-repeat 0px 0px; background-position:center;}
+.community:hover .icon {background: url("../img/icon-community-white.png") no-repeat 0px 0px; background-position:center;}
+.other:hover .icon {background: url("../img/icon-other-white.png") no-repeat 0px 0px; background-position:center;}
+
+.health:hover {color: white; background-color:#f5bea6;}
+.relief:hover {color: white; background-color:#aa2636;}
+.youth:hover {color: white; background-color:#ff9d46;}
+.hunger:hover {color: white; background-color:#bf8058;}
+.animals:hover {color: white; background-color:#6c3320;}
+.environment:hover {color: white; background-color:#7e8151;}
+.education:hover {color: white; background-color:#b79d85;}
+.children:hover {color: white; background-color:#5c9c9e;}
+.military:hover {color: white; background-color:#494d36;}
+.science:hover {color: white; background-color:#acd3dc;}
+.community:hover {color: white; background-color:#6d5a53;}
+.other:hover {color: white; background-color:#F37B83;}
+
+/*
+.animals:hover {background-color:#6c3320;background-position:0 0;}
+.children:hover {background-color:#5c9c9e;background-position:-90px 0;}
+.community:hover {background-color:#6d5a53;background-position:-180px 0;}
+.relief:hover {background-color:#aa2636;background-position:-270px 0;}
+.education {background-color:#b79d85;background-position:-360px 0;}
+.environment {background-color:#7e8151;background-position:-450px 0;}
+.health:hover {background-color:#f5bea6;background-position:-540px 0;}
+.hunger:hover {background-color:#bf8058;background-position:-630px 0;}
+.military:hover {background-color:#494d36;background-position:-720px 0;}
+.science:hover {background-color:#acd3dc;background-position:-810px 0;}
+.youth:hover {background-color:#ff9d46;background-position:-900px 0;}
+*/
