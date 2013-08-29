@@ -66,6 +66,10 @@ body {
 	/* background: yellow;*/
 }
 
+	#tutorial .graphic {
+		height: 140px;
+	}
+
 .gap {
 	width: 50px;
 	height: 0px;
@@ -128,7 +132,7 @@ h1 {
 }
 
 h2 {
-	font-size: 45px;
+	font-size: 35px;
 	margin: 0px;
 	font-weight: 700;
 	text-align: left;
@@ -164,7 +168,7 @@ h4 {
 	font-size: 35px;
 	margin: 0 0 20px;
 	font-weight: 400;
-	text-align: center;
+	text-align: left;
 }
 
 #flow h3 {
