@@ -1,0 +1,70 @@
+<!--
+
+QUESTIONS
+
+1) a:hover for class on actual element (not parent)
+	.primary-button a:hover
+	.secondary-botton
+
+	
+
+-->	
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>	
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/skeuocard.reset.css" />
+
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+<!--		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'> -->
+
+
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/skeuocard.css" />
+		
+		<script src="/js/vendor/css_browser_selector.js"></script>
+		<script src="/js/skeuocard.js"></script>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+	<div class="header"></div>
+
+<!-- LANDING -->
+
+	<div id="landing">
+	
+		<!-- START FORM -->
+        
+          <div class="credit-card-input no-js" id="skeuocard">
+            <p class="no-support-warning">
+              Either you have Javascript disabled, or you're using an unsupported browser, amigo! That's why you're seeing this old-school credit card input form instead of a fancy new Skeuocard. On the other hand, at least you know it gracefully degrades...
+            </p>
+            <label for="cc_type">Card Type</label>
+            <select name="cc_type">
+              <option value="">...</option>
+              <option value="visa">Visa</option>
+              <option value="discover">Discover</option>
+              <option value="mastercard">MasterCard</option>
+              <option value="amex">American Express</option>
+              <option value="dinersclubintl">Diners Club</option>
+            </select>
+            <label for="cc_number">Card Number</label>
+            <input type="number" name="cc_number" id="cc_number" placeholder="XXXX XXXX XXXX XXXX" maxlength="19" size="19">
+            <label for="cc_exp">Expiration Date (mm/yy)</label>
+            <input type="number" name="cc_exp" id="cc_exp" placeholder="00/00">
+            <label for="cc_name">Cardholder's Name</label>
+            <input type="number" name="cc_name" id="cc_name" placeholder="John Doe">
+            <label for="cc_cvc">Card Validation Code</label>
+            <input type="number" name="cc_cvc" id="cc_cvc" placeholder="123" maxlength="3" size="3">
+          </div>
+
+		<!-- END FORM -->
+
+	</div>
+
+
+	</body>
+</html>
